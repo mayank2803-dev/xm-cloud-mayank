@@ -9,6 +9,7 @@ import 'assets/main.scss';
 import { useEffect, useRef } from 'react';
 import { loadEngage } from '../lib/engageClient';
 
+
 function App({ Component, pageProps, router }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
 

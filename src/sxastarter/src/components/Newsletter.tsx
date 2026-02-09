@@ -1,13 +1,15 @@
-// components/DemoSample.tsx
 import React, { useState } from 'react';
 import { loadEngage } from '../lib/engageClient';
 
 let engageInstance: any = null;
 
-const DemoSample = () => {
+const Newsletter = () => {
   const [status, setStatus] = useState('');
   const [sessionStarted, setSessionStarted] = useState(false);
   const [guestRef, setGuestRef] = useState<string | null>(null);
+  const [email, setEmail] = useState('');
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
 
   // ✅ helper to read cookies
   const getCookie = (name: string): string | null => {
@@ -27,7 +29,7 @@ const DemoSample = () => {
 
       // read bx_guest_ref after initialization
       const guestId = getCookie('bx_guest_ref');
-      console.log("Guest Ref:", guestId);
+      console.log('Guest Ref:', guestId);
       setGuestRef(guestId);
     } catch (err) {
       console.error('❌ Error initializing Engage:', err);
@@ -58,9 +60,9 @@ const DemoSample = () => {
       setStatus('Error sending page view.');
     }
   };
-
-  const handleIdentity = async () => {
-    try {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+     try {
       if (!engageInstance) {
         setStatus('Please initialize Engage first.');
         return;
@@ -72,16 +74,15 @@ const DemoSample = () => {
         pointOfSale: 'demo',
         language: 'EN',
         page: 'home',
-        email: 'mayank@sourceved.com',
-        firstName: 'Mayank',
-        lastName: 'Kumar',
+        email: email,
+        firstName: firstName,
         identifiers: [
           {
             provider: 'email',
-            id: 'mayank@sourceved.com',
-          }
+            id: email,
+          },
         ],
-        item: { id: guestRef || '' } // 👈 include bx_guest_ref here too
+        item: { id: guestRef || '' }, // 👈 include bx_guest_ref here too
       };
 
       await engageInstance.identity(eventData);
@@ -94,6 +95,10 @@ const DemoSample = () => {
     }
   };
 
+  const handleIdentity = async () => {
+   
+  };
+
   return (
     <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
       <h2>🔗 Sitecore Engage Demo</h2>
@@ -102,6 +107,19 @@ const DemoSample = () => {
         <button onClick={handlePageView}>Send Page View</button>
         <button onClick={handleIdentity}>Send Identity</button>
       </div>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Email</label>
+          <input type="email" value={email} required onChange={(e) => setEmail(e.target.value)} />
+        </div>
+
+        <div>
+          <label>First Name</label>
+          <input type="text" onChange={(e) => setFirstName(e.target.value)} />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
       <p>
         <strong>Status:</strong> {status}
       </p>
@@ -114,4 +132,4 @@ const DemoSample = () => {
   );
 };
 
-export default DemoSample;
+export default Newsletter;

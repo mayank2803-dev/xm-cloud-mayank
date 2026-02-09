@@ -16,6 +16,9 @@ const loadEngage = async () => {
     forceServerCookieMode: false,
     includeUTMParameters: true,
     webPersonalization: true,
+    identifiers: {
+      email: 'mayank@sourceved.com',
+    },
   });
 
   return engage;
