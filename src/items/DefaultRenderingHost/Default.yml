@@ -13,6 +13,9 @@ SharedFields:
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 1
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "{C9CC37EC-C8D3-44BF-967C-C80E28FB4FD8}"
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
   Value: "https://xmc-eh-iopdjbvpimwjomgemnc4i.sitecorecloud.io/"
