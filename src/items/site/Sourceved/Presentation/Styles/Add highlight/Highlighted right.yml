@@ -1,6 +1,6 @@
 ﻿---
-ID: "0dce80f8-b6fc-426a-a73c-3051a5ec7334"
-Parent: "a36e0352-953e-490b-aad0-da4ba10b3bfc"
+ID: "aea35252-15fc-4b99-9757-0f686d722e5d"
+Parent: "f01124f1-1822-4d46-94f2-24fbb3334764"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Sourceved Demo/Sourceved/Presentation/Styles/Add highlight/Highlighted right
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -26,7 +26,7 @@ SharedFields:
   Value: 3962
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fed3cc8d-d3c8-4c73-86e3-79b5dc8419b2"
+  Value: "ecea0311-cca9-44da-9884-a902756cf100"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{AAE3747D-A1E9-4F04-BF76-3E5A9EA71DF2}"
@@ -37,7 +37,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260209T110238Z
+      Value: 20260210T123524Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -48,11 +48,11 @@ Languages:
         sitecore\mayank@sourceved.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "561f6ce5-47ff-4f02-83b5-e324fdd55372"
+      Value: "8807e213-5c95-400c-9e84-bd5814824869"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mayank@sourceved.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260209T110238Z
+      Value: 20260210T123524Z

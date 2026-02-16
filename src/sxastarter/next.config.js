@@ -45,7 +45,8 @@ const nextConfig = {
         hostname: 'feaas*.blob.core.windows.net',
         port: '',
       },
-    ]
+    ],
+    domains: ['xmcloudcm.localhost'],
   },
 
   async rewrites() {

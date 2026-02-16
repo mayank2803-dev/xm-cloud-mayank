@@ -70,8 +70,8 @@ const Newsletter = () => {
 
       const eventData = {
         channel: 'WEB',
-        currency: 'USD',
-        pointOfSale: 'demo',
+        currency: 'INR',
+        pointOfSale: 'sourceved',
         language: 'EN',
         page: 'home',
         email: email,

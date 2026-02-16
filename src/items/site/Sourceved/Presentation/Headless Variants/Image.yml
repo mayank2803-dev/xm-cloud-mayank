@@ -1,6 +1,6 @@
 ﻿---
-ID: "79b7d663-9491-4eca-82af-2b2dc85d823a"
-Parent: "c92bf31c-9093-4df5-bf24-c6977c0824ac"
+ID: "5184f221-9e42-432b-8691-84a1145f21ce"
+Parent: "53d8a4db-d019-49c3-a787-5a5956f9e570"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
 Path: /sitecore/content/Sourceved Demo/Sourceved/Presentation/Headless Variants/Image
 BranchID: "ae87ba03-4197-4107-82d5-f8b1cafe3bff"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Office/32x32/photo_landscape.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0c248264-183c-4372-8735-4eb10a85b8c3"
+  Value: "71953381-0edd-491a-b765-e776665b100d"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{22E4CE0C-BBBC-46EC-8F36-773779104491}"
@@ -21,7 +21,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260209T110244Z
+      Value: 20260210T123529Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +32,11 @@ Languages:
         sitecore\mayank@sourceved.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a15f8dfa-1104-48c9-8132-f89e28c33bde"
+      Value: "2deec119-1127-45f8-828c-5644b8c4ec49"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mayank@sourceved.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260209T110244Z
+      Value: 20260210T123529Z

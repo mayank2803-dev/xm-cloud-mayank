@@ -2,7 +2,22 @@
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "Project.SitecoreXMC",
     "items": {
-      "includes": [      
+      "includes": [    	 
+        {
+            "name": "RenderingsFeature",
+            "path": "/sitecore/layout/Renderings/Feature/Sourceved",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        },
+		{
+            "name": "templatesProject",
+            "path": "/sitecore/templates/Project/Sourceved Demo",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        },	
+        {
+            "name": "templatesFeature",
+            "path": "/sitecore/templates/Feature/Sourceved",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        },			
         {
           "name": "tenantRoot",
           "path": "/sitecore/content/Sourceved Demo",
