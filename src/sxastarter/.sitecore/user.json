@@ -1,0 +1,29 @@
+{
+  "endpoints": {
+    "xmCloud": {
+      "allowWrite": false,
+      "host": "https://xmclouddeploy-api.sitecorecloud.io/",
+      "authority": "https://auth.sitecorecloud.io/",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InpnbnhyQk9IaXJ0WXp4dnl1WVhNZyJ9.eyJodHRwczovL2F1dGguc2l0ZWNvcmVjbG91ZC5pby9jbGFpbXMvb3JnX2lkIjoib3JnXzg2ejNiZU1TcTBTU2NHdkIiLCJodHRwczovL2F1dGguc2l0ZWNvcmVjbG91ZC5pby9jbGFpbXMvb3JnX25hbWUiOiJzb3VyY2V2ZWQtMSIsImh0dHBzOi8vYXV0aC5zaXRlY29yZWNsb3VkLmlvL2NsYWltcy9vcmdfZGlzcGxheV9uYW1lIjoiU291cmNldmVkIiwiaHR0cHM6Ly9hdXRoLnNpdGVjb3JlY2xvdWQuaW8vY2xhaW1zL29yZ19hY2NvdW50X2lkIjoiMDAxSHUwMDAwMngyWHVzSUFFIiwiaHR0cHM6Ly9hdXRoLnNpdGVjb3JlY2xvdWQuaW8vY2xhaW1zL29yZ190eXBlIjoicGFydG5lciIsInNjX29yZ19yZWdpb24iOiJ1c2UiLCJodHRwczovL2F1dGguc2l0ZWNvcmVjbG91ZC5pby9jbGFpbXMvZW1haWwiOiJtYXlhbmtAc291cmNldmVkLmNvbSIsImh0dHBzOi8vYXV0aC5zaXRlY29yZWNsb3VkLmlvL2NsYWltcy9yb2xlcyI6WyJbT3JnYW5pemF0aW9uXVxcT3JnYW5pemF0aW9uIEFkbWluIl0sImh0dHBzOi8vYXV0aC5zaXRlY29yZWNsb3VkLmlvL2NsYWltcy9jbGllbnRfbmFtZSI6IlNpdGVjb3JlQUkgRGVwbG95IChDTEkpIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnNpdGVjb3JlY2xvdWQuaW8vIiwic3ViIjoiYXV0aDB8NjZhMjFkMjg4MWY2NjBhZTkzOTg2NmJhIiwiYXVkIjpbImh0dHBzOi8vYXBpLnNpdGVjb3JlY2xvdWQuaW8iLCJodHRwczovL29uZS1zYy1wcm9kdWN0aW9uLmV1LmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3NzEyMjI3MDQsImV4cCI6MTc3MTMwOTEwNCwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSBvZmZsaW5lX2FjY2VzcyBpYW0udXNyX3JvbGVzOnIgeG1jbG91ZGRlcGxveS5wcm9qZWN0czptYW5hZ2UgeG1jbG91ZGRlcGxveS5lbnZpcm9ubWVudHM6bWFuYWdlIHhtY2xvdWRkZXBsb3kub3JnYW5pemF0aW9uczptYW5hZ2UgeG1jbG91ZGRlcGxveS5kZXBsb3ltZW50czptYW5hZ2UgeG1jbG91ZGRlcGxveS5tb25pdG9yaW5nLmRlcGxveW1lbnRzOnJlYWQgeG1jbG91ZGRlcGxveS5jbGllbnRzOm1hbmFnZSB4bWNsb3VkZGVwbG95LnNvdXJjZWNvbnRyb2w6bWFuYWdlIHhtY2xvdWRkZXBsb3kucmg6bW5nIHhtY2xvdWRkZXBsb3kuc2l0ZTptbmcgcGxhdGZvcm0udGVuYW50czpsaXN0YWxsIiwiYXpwIjoiQ2hpOEV3ZkZuRWVqa3NrM1NlZDlobGFsR2lNOUIydjcifQ.AJe-D084W8E32SPE9r7gpk3h6RZmXciEqzt8fyeI6SJSDICnvEb6b3wfSaglz70xR1yM5Clb3jsHM2CyQrHK8ycskvnIhHKXPn14oFtCL6AbF_jkvWMeOEgkAe8jW3qMFHZFMadoyBgGuS_yCFYnHQLIEkUKDnsH4IKN-yBTR4Tgj06HxNazSTchs0NoVTWY3YJdFQDjChODoMNpOrp89VoJpAiwEbqM1gB7cM3DFxWPaZz0agbny3_yNL7ZvTHGJtHa6kbmb2uq9STYNVebV65nSPBjo0Dk_mh1YBhKYJ0MHsM6iOIOcrEC5yXfJIlofVBSMvOhMIBZe0ybKqgAZw",
+      "refreshToken": "v1.MUvKfsMnTKFcpFlCZtTYfx-lbx6LnYxuTocK1Twhv_77czAzLeyfZUvMgyqi6zqW2kb9jPg8BQPJX_qsQMpEGJQ",
+      "refreshTokenParameters": {
+        "organization_id": "org_86z3beMSq0SScGvB"
+      },
+      "expiresIn": 86400,
+      "lastUpdated": "2026-02-16T06:18:24.807064Z",
+      "clientId": "Chi8EwfFnEejksk3Sed9hlalGiM9B2v7",
+      "variables": {
+        "xmCloudMonitoringHost": "https://xmcloud-monitoring-api.sitecorecloud.io/"
+      },
+      "audience": "https://api.sitecorecloud.io"
+    },
+    "default": {
+      "ref": "xmcloud",
+      "allowWrite": true,
+      "host": "https://xmcloudcm.localhost",
+      "variables": {}
+    }
+  },
+  "$schema": "./schemas/UserConfiguration.schema.json",
+  "defaultEndpoint": "default"
+}

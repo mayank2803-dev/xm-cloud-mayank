@@ -1,0 +1,74 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Project.Sourceved",
+    "items": {
+      "includes": [    	 
+        {
+            "name": "RenderingsFeature",
+            "path": "/sitecore/layout/Renderings/Feature/Sourceved",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        },
+		{
+            "name": "templatesProject",
+            "path": "/sitecore/templates/Project/Sourceved Demo",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        },	
+        {
+            "name": "templatesFeature",
+            "path": "/sitecore/templates/Feature/Sourceved",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        },			
+        {
+          "name": "tenantRoot",
+          "path": "/sitecore/content/Sourceved Demo",
+          "scope": "SingleItem",
+          "allowedPushOperations": "CreateAndUpdate"
+        },
+        {
+          "name": "site",
+          "path": "/sitecore/content/Sourceved Demo/Sourceved",
+          "rules": [
+            {
+              "path": "/home",
+              "scope": "ItemAndDescendants",
+              "allowedPushOperations": "CreateOnly"
+            },
+            {
+              "path": "/Media",
+              "scope": "ItemAndChildren",
+              "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+              "path": "/Data",
+              "scope": "ItemAndChildren",
+              "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+              "path": "/Dictionary",
+              "scope": "ItemAndChildren",
+              "allowedPushOperations": "CreateOnly"
+            },
+            {
+              "path": "/Presentation",
+              "scope": "ItemAndDescendants",
+              "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+              "path": "/Settings/Site Grouping",
+              "scope": "ItemAndDescendants",
+              "allowedPushOperations": "CreateOnly"
+            },
+            {
+              "path": "/Settings",
+              "scope": "ItemAndChildren",
+              "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+              "path": "*", 
+              "scope": "Ignored"
+            }
+          ]
+        }
+      ]
+    }
+  }
