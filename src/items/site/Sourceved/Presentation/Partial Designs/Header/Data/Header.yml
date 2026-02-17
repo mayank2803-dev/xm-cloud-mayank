@@ -22,14 +22,14 @@ Languages:
     - ID: "8aa41c73-e41d-49b7-b5e3-0cf4c8f84e42"
       Hint: Logo
       Value: |
-        <image mediaid="{28BC57A4-F806-49CD-8C61-CA94035290C7}" />
+        <image mediaid="{E0457743-1E14-4850-836C-D11A46DF1C93}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49259d9d-9aba-4272-ae3d-0049ad955c68"
+      Value: "9f019de2-5435-41a5-b22b-840f9734f605"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mayank@sourceved.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260213T062006Z
+      Value: 20260217T062338Z
