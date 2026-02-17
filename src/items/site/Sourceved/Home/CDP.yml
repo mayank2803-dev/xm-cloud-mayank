@@ -1,0 +1,66 @@
+﻿---
+ID: "5aeb820d-1b75-4547-96f7-962cef6e91b1"
+Parent: "07ce1ace-8a9d-42e2-8a01-be49924cbdba"
+Template: "a5b5fa77-8e5e-4edb-98f1-3f6cc6463809"
+Path: /sitecore/content/Sourceved Demo/Sourceved/Home/CDP
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{F3671AFF-C6E9-4714-82F9-893C71209CA9}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FA3DCEB7-D9DF-4FDC-8472-01AC10B40609}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0484ebfd-dfd7-4ae5-bff1-b0183c4c0527"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5A914A4E-F6D7-4787-9753-1D4139A4FD1F}"
+          s:id="{694139A5-73CD-4BC4-A076-3163A0154E2E}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260210T123513Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sourceved
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mayank@sourceved.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mayank@sourceved.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba610ca7-e190-412a-89c2-42d6a906cff3"
+    - ID: "ae3c5939-ecb2-4666-a622-0d62cef1116a"
+      Hint: Title
+      Value: CDP
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mayank@sourceved.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260211T173232Z

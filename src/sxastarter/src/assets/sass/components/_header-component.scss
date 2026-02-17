@@ -1,0 +1,77 @@
+@import "@sass/abstracts/vars";
+
+.header {
+  background: $primary-bg;
+  padding: 16px 0;
+  color: $text-light;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo Section */
+.header__logo-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__partners {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Navigation */
+.header__nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header__link {
+  color: $text-light;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+/* CTA */
+.header__button {
+  background: $cta-bg;
+  padding: 12px 22px;
+  border-radius: 4px;
+  color: $text-light;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: darken($cta-bg, 10%);
+  }
+}
+
+.header__arrow {
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .header__nav {
+    display: none;
+  }
+}

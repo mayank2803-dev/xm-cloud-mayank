@@ -1,0 +1,35 @@
+﻿---
+ID: "a6203be0-c226-4f5f-a072-6eb621b08253"
+Parent: "824c2a19-fffc-4fb9-a388-9099b744d4be"
+Template: "8e020830-3dd0-4fad-804d-8de2cf4e8e83"
+Path: /sitecore/content/Sourceved Demo/Sourceved/Presentation/Partial Designs/Header/Data/Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260213T061650Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mayank@sourceved.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mayank@sourceved.com
+    - ID: "8aa41c73-e41d-49b7-b5e3-0cf4c8f84e42"
+      Hint: Logo
+      Value: |
+        <image mediaid="{E0457743-1E14-4850-836C-D11A46DF1C93}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f019de2-5435-41a5-b22b-840f9734f605"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mayank@sourceved.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260217T062338Z
