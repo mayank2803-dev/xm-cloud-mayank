@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // components/DemoSample.tsx
 import React, { useState } from 'react';
 import { loadEngage } from '../lib/engageClient';
@@ -6,7 +8,6 @@ let engageInstance: any = null;
 
 const DemoSample = () => {
   const [status, setStatus] = useState('');
-  const [sessionStarted, setSessionStarted] = useState(false);
   const [guestRef, setGuestRef] = useState<string | null>(null);
 
   // ✅ helper to read cookies
@@ -27,7 +28,7 @@ const DemoSample = () => {
 
       // read bx_guest_ref after initialization
       const guestId = getCookie('bx_guest_ref');
-      console.log("Guest Ref:", guestId);
+      console.log('Guest Ref:', guestId);
       setGuestRef(guestId);
     } catch (err) {
       console.error('❌ Error initializing Engage:', err);
@@ -47,12 +48,11 @@ const DemoSample = () => {
         currency: 'USD',
         language: 'en',
         page: 'home', // static
-        item: { id: guestRef || '' } // 👈 passing guestRef also if needed
+        item: { id: guestRef || '' }, // 👈 passing guestRef also if needed
       });
 
       console.log('✅ Page view event sent!');
       setStatus('Page view event sent! (session started)');
-      setSessionStarted(true);
     } catch (err) {
       console.error('❌ Error sending page view:', err);
       setStatus('Error sending page view.');
@@ -79,7 +79,7 @@ const DemoSample = () => {
           {
             provider: 'email',
             id: 'mayank@sourceved.com',
-          }
+          },
         ],
         item: { id: guestRef || '' } // 👈 include bx_guest_ref here too
       };

@@ -1,15 +1,16 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 import React, { useState } from 'react';
 import { loadEngage } from '../lib/engageClient';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 let engageInstance: any = null;
 
 const Newsletter = () => {
   const [status, setStatus] = useState('');
-  const [sessionStarted, setSessionStarted] = useState(false);
+  const [, setSessionStarted] = useState<boolean>(false);
   const [guestRef, setGuestRef] = useState<string | null>(null);
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
 
   // ✅ helper to read cookies
   const getCookie = (name: string): string | null => {
@@ -49,7 +50,7 @@ const Newsletter = () => {
         currency: 'USD',
         language: 'en',
         page: 'home', // static
-        item: { id: guestRef || '' } // 👈 passing guestRef also if needed
+        item: { id: guestRef || '' }, // 👈 passing guestRef also if needed
       });
 
       console.log('✅ Page view event sent!');
@@ -62,7 +63,7 @@ const Newsletter = () => {
   };
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-     try {
+    try {
       if (!engageInstance) {
         setStatus('Please initialize Engage first.');
         return;
@@ -95,9 +96,7 @@ const Newsletter = () => {
     }
   };
 
-  const handleIdentity = async () => {
-   
-  };
+  const handleIdentity = async () => {};
 
   return (
     <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
