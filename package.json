@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@sitecore-jss/sitecore-jss-nextjs": "^22.10.0"
+  }
+}
