@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // lib/engageClient.ts
 import { init } from '@sitecore/engage';
 
@@ -12,13 +13,13 @@ const loadEngage = async () => {
     pointOfSale: 'demo',
     cookieDomain: 'localhost',
     cookieExpiryDays: 365,
-    channel: 'WEB',
+    // channel: 'WEB',
     forceServerCookieMode: false,
     includeUTMParameters: true,
     webPersonalization: true,
-    identifiers: {
-      email: 'mayank@sourceved.com',
-    },
+    // identifiers: {
+    //   email: 'mayank@sourceved.com',
+    // },
   });
 
   return engage;

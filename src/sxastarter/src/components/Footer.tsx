@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export const Default = (props:any) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const Default = (props: any) => {
   console.log('=====', props);
   return (
     <footer className="footer">
